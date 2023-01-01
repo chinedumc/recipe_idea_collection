@@ -1,8 +1,23 @@
+import { Link } from "react-router-dom";
+import logo from "./FoodRecipeLogo.png";
+
 const Navbar = () => {
 	return (
-		<div>
-			<h1>Navbar</h1>
-		</div>
+		<nav className="navbar">
+			<div className="nav-center">
+				<Link to="/">
+					<img src={logo} alt="FoodRecipe logo" className="logo" />
+				</Link>
+				<ul className="nav-links">
+					<li>
+						<Link to="/">Home</Link>
+					</li>
+					<li>
+						<Link to="about">About</Link>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	);
 };
 

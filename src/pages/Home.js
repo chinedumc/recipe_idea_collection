@@ -4,7 +4,7 @@ const Home = () => {
 
   return (
 		<main>
-			<h2 className="section-title">Find Meals For Your ingredients</h2>
+			<h2 className="section-title">Find Meals For Your Ingredients</h2>
 			<blockquote>
 				Real food doesn't have ingredients, real food is ingredients. <br />
 				<cite>- Jamie Oliver</cite>

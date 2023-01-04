@@ -8,7 +8,7 @@ const Recipe = ({name, id, image}) => {
       <img src={image} alt={name} />
       </div>
       <div className="recipe-footer">
-      <h3>{name}</h3>
+      <h4>{name}</h4>
       <Link to={`/recipe/${id}`} className="btn btn-primary btn-details">
        Recipe Details
       </Link>

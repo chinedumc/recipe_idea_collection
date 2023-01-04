@@ -18,7 +18,7 @@ if (recipes.length < 1) {
   )
 }
   return (
-    <section className="">
+    <section>
       <h1 className="recipe-heading">
         Recipes
       </h1>

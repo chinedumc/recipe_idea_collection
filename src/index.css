@@ -11,7 +11,7 @@
 	--darkGrey: #afafaf;
 	--mainRed: #bd0303;
 	--mainTransition: all 0.3s linear;
-	--mainSpacing: 0.3rem;
+	--mainSpacing: 0.2rem;
 	--lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
 	--darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 	--mainBorderRadius: 0.25rem;
@@ -219,7 +219,7 @@ width: 12rem;
   max-width: var(--fullWidth);
   display: grid;
   row-gap: 2rem;
-  column-gap: 2rem;
+  column-gap: 1.9rem;
 }
 @media screen and (min-width: 576px) {
   .recipes-centre {

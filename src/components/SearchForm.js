@@ -23,7 +23,7 @@ const handleSubmit=(e)=> {
      <form className="search-form" onSubmit={handleSubmit}>
       <div className="form-control">
 <label htmlFor="name">Search your favorite recipe</label>
-<input type="text" id="name"  ref={searchValue} onChange={searchRecipe}/>
+<input type="text" id="name" placeholder="Enter an ingredient to get recipe ideas e.g. beef" ref={searchValue} onChange={searchRecipe}/>
 
       </div>
      </form>

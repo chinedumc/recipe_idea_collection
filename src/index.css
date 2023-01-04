@@ -269,7 +269,8 @@ width: 12rem;
   margin-bottom: 0.3rem;
 }
 .recipe-footer h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 .recipe-footer p {
   color: var(--darkGrey);
